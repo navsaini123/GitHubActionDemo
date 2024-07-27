@@ -1,1 +1,28 @@
+spring:
+  application:
+    name: MESSAGEAPI
+  boot:
+    admin:
+      client:
+        url: "http://localhost:1112/"
+  cloud:
+    compatibility-verifier:
+      enabled: false
+        
+    
+    
+server:
+  port: 7071
 
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+eureka:
+ server: 
+  peer-node-read-timeout-ms: 3000000
+        
+          
