@@ -1,21 +1,2 @@
-spring:
-  application:
-    name: msg
-    admin:
-      client:
-        url: http://localhost:1112/
-       
-    
-  cloud:
-    compatibility-verifier:
-      enabled: false
-       
-    
-
-    
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+msg: good evening....
     
