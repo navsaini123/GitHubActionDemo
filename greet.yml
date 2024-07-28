@@ -4,10 +4,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:1112/
-  cloud:
-    compatibility-verifier:
-      enabled: false
+        url: http://localhost:6666/
        
     
 
