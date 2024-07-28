@@ -1,10 +1,13 @@
 spring:
-  application:
-    name: GREETAPI
   boot:
     admin:
       client:
         url: http://localhost:1112/
+       
+    
+  cloud:
+    compatibility-verifier:
+      enabled: false
        
     
 
@@ -14,3 +17,4 @@ management:
     web:
       exposure:
         include: '*'
+    
