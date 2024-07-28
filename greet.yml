@@ -1,5 +1,6 @@
 spring:
-  boot:
+  application:
+    name: msg
     admin:
       client:
         url: http://localhost:1112/
